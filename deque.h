@@ -30,6 +30,10 @@ struct deque {
 
 	std::string& operator[](size_t index);
 	std::string const& operator[](size_t index) const;
+
+private:
+    
+    
 };
 
 #endif // DEQUE_H
